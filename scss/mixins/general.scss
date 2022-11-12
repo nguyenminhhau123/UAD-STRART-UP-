@@ -1,0 +1,23 @@
+@mixin displayFlexCenter($display:flex,$just:center,$align:center,$gap:0){
+    display:$display;
+    justify-content: $just;
+    align-items: $align;
+    gap:$gap;
+}
+@mixin button($color:$white){
+    padding: 16px 48px;
+    background-color: $color;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+@mixin text($size: 16px, $weight: 900, $height: 20px,$spacing:3px, $color:$white ) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $spacing;
+    color: $color;
+    
+}

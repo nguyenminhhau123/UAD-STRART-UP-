@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #232536;
+  padding: 0px 80px 0px 83px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.header__logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header__links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+.header__links * {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__subscribe {
+  padding: 16px 48px;
+  background-color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  font-family: "Sen", sans-serif;
+}
+
+.tbody {
+  width: 100%;
+  height: 720px;
+  background-color: #6d6e76;
+  box-sizing: border-box;
+  padding: 128px 192px 556px 80px;
+}
+.tbody__tbodys {
+  width: 804px;
+  height: 400px;
+  background-color: #4c4c4c;
+}
+.tbody__posted {
+  width: 222px;
+  height: 20px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.tbody__content {
+  width: 803px;
+  height: 128px;
+  padding-bottom: 24px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+.tbody__datetime {
+  width: 243px;
+  height: 28px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.tbody__box1 {
+  width: 599px;
+  height: 56px;
+  padding-bottom: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.tbody__button {
+  padding: 16px 48px;
+  background-color: #ffd050;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=day1.css.map */
